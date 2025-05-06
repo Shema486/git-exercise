@@ -28,6 +28,4 @@ here we are going to create home.html and some change before commit.....
 .git stash list : to list all stashed filed
 .git stash pop (then index) : to bring back stashed file
 .git reset --hard :takes a way latest changes
-
-
 ```
