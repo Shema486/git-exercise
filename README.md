@@ -17,3 +17,17 @@ git push --set-upstream origin main OR git push origin main
 git branch -d test : delete
 git push origin --delete test: deleting branch from github
 ```
+
+## Bundle 1 ------------- exercise 2
+
+```bash
+here we are going to create home.html and some change before commit.....
+
+.git stash : takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy
+
+.git stash list : to list all stashed filed
+.git stash pop (then index) : to bring back stashed file
+.git reset --hard :takes a way latest changes
+
+
+```
