@@ -28,6 +28,14 @@ here we are going to create home.html and some change before commit.....
 .git stash list : to list all stashed filed
 .git stash pop (then index) : to bring back stashed file
 .git reset --hard :takes a way latest changes
+```
 
+## Bundle 2 ---------------exercises 1
+
+```bash
+A pull request is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
+
+git pull origin dev : to bring files from dev to main when i was in the main branch like =======
+git merge dev.
 
 ```
