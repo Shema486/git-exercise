@@ -67,3 +67,23 @@ git rebase branch name: it combines two branches without new commit it copies di
 Use git rebase when you want a cleaner, more linear history, and when working on a feature branch that hasn't been shared. Avoid rebasing public branches to prevent issues for collaborators.
 
 ```
+
+## Bundle 4 ---------------exercises 1
+
+```bash
+git remote : it always has origin as default but can create new one
+git remote add git-copy:as new remote
+git remote rm : removing remote
+git remote add <name> <url>
+git remote lists all your defined remotes, and git remote -v shows their associated URLs.
+
+You use git push <remote-name> <branch> to push your local changes to the remote repository, and git pull <remote-name> <branch> to fetch and integrate changes from the remote
+```
+
+## Bundle 4 ---------------exercises 2
+
+```bash
+git merge squash : it brings copy of commit but staged
+
+git merge --squash in Git means combining all the changes from a branch into a single commit when merging it into another branch. Instead of creating a merge commit that preserves the history of both branches, a squash merge creates a new commit containing all the changes from the merged branch, effectively rewriting the history
+```
