@@ -87,3 +87,11 @@ git merge squash : it brings copy of commit but staged
 
 git merge --squash in Git means combining all the changes from a branch into a single commit when merging it into another branch. Instead of creating a merge commit that preserves the history of both branches, a squash merge creates a new commit containing all the changes from the merged branch, effectively rewriting the history
 ```
+
+# Bundle 5 -------------- Exercises
+
+```bash
+cd .. is a command used to navigate up one directory level in the file system. It's short for "change directory to the parent directory".
+
+clone url link
+```
